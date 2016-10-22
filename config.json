@@ -12,16 +12,14 @@
         "serverConfig": {
             "matrix.org": {
                 "networks": [
-                    "_matrix",
-                    "gitter",
-                    "irc:freenode",
-                    "irc:mozilla",
-                    "irc:snoonet",
-                    "irc:oftc"
+                    "_matrix"
                 ]
             }
         },
         "networks": {
+            "_matrix": {
+                "portalRoomPattern": "#gowebmasters-.*:matrix.org",
+            },
             "gitter": {
                 "protocol": "gitter",
                 "portalRoomPattern": "#gitter_.*:matrix.org",
