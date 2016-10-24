@@ -19,9 +19,8 @@
         "networks": {
             "_matrix": {
                 "protocol": "_matrix",
-                "portalRoomPattern": "#gowebmasters.*:matrix.org",
+                "portalRoomPattern": "#gowebmasters-.*:matrix.org",
                 "name": "Matrix",
-                "icon": "//gitter.im/favicon.ico",
                 "example": "#example:matrix.org",
                 "nativePattern": "^#[^\\s]+:[^\\s]"
             },
